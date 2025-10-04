@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #055a05; /* forest green */
-  --secondary-color: #f4a261; /* warm sand */
-  --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
+  --primary-color: #055a05;
+  --secondary-color: #f4a261;
+  --accent1-color: #264653;
+  --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -67,19 +67,18 @@ article{
     position: absolute;
 }
 
-/*.hero article{
+.hero article{
     position: absolute;
     width: 125px;
     right: 0;
     top: 50px;
-    text-align: center;*/
+    text-align: center;
+}
 
-/* Style the article to be on the right side of the hero */
+ /*Style the article to be on the right side of the hero*/
 .hero article {
   position: absolute;
-  top: 50%;         /* Vertically center the article */
-  right: 0;         /* Place the article on the right edge */
-  transform: translateY(-50%); /* Adjust for vertical centering */
-  width: 150px;     /* Give it a fixed size */
-  background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+  top: 50%;         
+  right: 0;         
+  width: 150px;
 }
